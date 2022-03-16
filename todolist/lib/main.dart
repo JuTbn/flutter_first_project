@@ -12,7 +12,7 @@ class TodoList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'To Do List',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -23,9 +23,9 @@ class TodoList extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
       ),
-      home: const AllTasks(title: 'Flutter Demo Home Page'),
+      home: const AllTasks(title: 'To Do List'),
     );
   }
 }
